@@ -84,3 +84,9 @@ Tüm modüller için `tests/` klasörü altında `unittest` temelli test dosyala
 
 ```bash
 python -m unittest discover tests
+---BÖYLECE İMPORT EDEBİLİRSİNİZ---
+from anpars.str import StrUtils
+from anpars.fs import FsUtils
+from anpars.smart import SmartUtils
+from anpars.net import NetUtils
+
